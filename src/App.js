@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='pt-10'>
       <Nav />
-    <div className="App bg-gradient-to-t from-sec-blue via-main-blue to-black pt-10 w-full h-screen">
+    <div className="App">
       <Welcome />
       <About />
       <Experience />
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+

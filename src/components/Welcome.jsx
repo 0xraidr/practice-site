@@ -3,9 +3,9 @@ import Typewriter from 'typewriter-effect';
 
 const Welcome = () => {
   return (
-    <div>
+    <div className='bg-gradient-to-t from-sec-blue via-main-blue to-black pt-10 w-full h-screen'>
 
-       <div>
+       <div className=''>
         <h1 className='text-xl pl-10 md:pr-20 md:text-3xl md:flex justify-center text-lightest-slate mt-10'>Welcome, my name's</h1>
         </div>
         <div>
@@ -15,8 +15,8 @@ const Welcome = () => {
         <div>
           <h2 className='flex mt-10 justify-center text-2xl text-lightest-slate'>Currently Under Construction...</h2>
         </div>
-    <div className='w-full pt-10 flex items-center justify-center pb-10'>
-      <div className='mb-10 text-center text-transparent pt-10 mt-10
+    <div className='w-full pt-10 flex items-center justify-center'>
+      <div className='text-center text-transparent pt-10 mt-10
       text-4xl bg-clip-text bg-gradient-to-r from-lightest-slate to-regal-green'>
           <Typewriter 
           options={{

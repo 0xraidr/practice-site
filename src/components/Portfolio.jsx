@@ -33,18 +33,26 @@ const Portfolio = () => {
 
   return (
     <div name='portfolio' className='
-     w-full text-white md:h-screen'>
+     w-full text-white md:h-screen bg-gradient-to-b 
+     from-sec-blue via-main-blue to-black pt-10 h-screen'>
         
     <div className='max-w-screen-lg p-4 mx-auto
      flex flex-col justify-center w-full h-full text-center'>
         <div className='pb-8'>
-            <h2 className='text-4xl font-bold inline'>03. Portfolio</h2>
+            <h2 className='text-4xl font-bold inline'>03. Work</h2>
             <p className='py-6'>Check out some of my work right here.</p>
          </div>
 
+         <div className='hover:text-regal-green pb-5'>
+            <a href='https://github.com/0xraidr' target='blank_' className='text-4xl'>
+            <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
 
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
+
+
+        <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8
          px-12 sm:px-0'>
 
 {
@@ -55,12 +63,12 @@ const Portfolio = () => {
                  duration-200 hover:scale-105' />
                 <a className='flex items-center justify-center' href={demo}>
                     <button target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200
-                    hover:scale-105'>Demo</button>
+                    hover:text-regal-green'>Demo</button>
                 
                 </a>
                 <a className='flex items-center justify-center' href={code}>
                 <button target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200
-                    hover:scale-105'>Code</button>
+                    hover:text-regal-green'>Code</button>
                 </a>
             </div>
             ))
