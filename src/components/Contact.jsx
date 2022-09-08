@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='text-lightest-slate
+    <div name='contact' className='text-lightest-slate pt-20
     bg-gradient-to-t from-sec-blue via-main-blue to-black w-full h-screen'>
         <div className='flex flex-col px-4 justify-center
          max-w-screen-lg mx-auto h-full'>
-            <div className='pb-3 text-center'>
+            <div className='pb-3 text-center pt-20'>
                 <h2 className='text-4xl font-bold inline'>04. Contact</h2>
                 <p className='py-6'>Submit the form below to get in touch with me.</p>
             </div>
