@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='pt-10'>
       <Nav />
-    <div className="App bg-gradient-to-br from-main-blue via-sec-blue to-black pt-10 w-full h-screen">
+    <div className="App bg-gradient-to-br from-sec-blue via-main-blue to-black pt-10 w-full h-screen">
       <Welcome />
     </div>
     </div>
