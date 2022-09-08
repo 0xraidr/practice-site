@@ -6,10 +6,10 @@ const Welcome = () => {
     <div>
 
        <div>
-        <h1 className='text-lg text-regal-green mt-10 ml-5'>Welcome, my name's</h1>
+        <h1 className='text-xl pl-10 md:pr-20 md:text-3xl md:flex justify-center text-lightest-slate mt-10'>Welcome, my name's</h1>
         </div>
         <div>
-          <h1 className='flex justify-center font-extrabold text-3xl mt-10 text-transparent bg-clip-text
+          <h1 className='flex justify-center font-extrabold text-7xl mt-10 text-transparent bg-clip-text
            bg-gradient-to-r from-lightest-slate to-regal-green'>0xraidr.</h1>
         </div>
         <div>
