@@ -13,7 +13,7 @@ const Welcome = () => {
            bg-gradient-to-r from-lightest-slate to-regal-green'>0xraidr.</h1>
         </div>
         <div>
-          <h2 className='flex mt-10 justify-center text-2xl text-lightest-slate'>I build things online.</h2>
+          <h2 className='flex mt-10 justify-center text-2xl text-lightest-slate'>Currently Under Construction.</h2>
         </div>
     <div className='w-full pt-10 flex items-center justify-center pb-10'>
       <div className='mb-10 text-center text-transparent pt-10 mt-10
