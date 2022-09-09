@@ -1,14 +1,13 @@
-
-
 import React, { useState } from 'react'
+import { Link } from 'react-scroll';
 
 const Nav = () => {
     let Links =[
       
-      {name:"01. About",link:"/"},
-      {name:"02. Experience",link:"/"},
-      {name:"03. Work",link:"/"},
-      {name:"04. Contact",link:"/"},
+      {name:"01. About",link:"/About"},
+      {name:"02. Experience",link:"/Experience"},
+      {name:"03. Work",link:"/Work"},
+      {name:"04. Contact",link:"/Contact"},
     ];
     let [open,setOpen] = useState(false);
 
@@ -28,11 +27,15 @@ const Nav = () => {
       <ion-icon name={open ? 'close':'menu'}></ion-icon>
       </div>
 
-      <ul className={`md:flex md:items-center md:pb-0 border rounded-full border-regal-green bg-gradient-to-b from-sec-blue via-main-blue to-black pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+
+      <ul className={`md:flex md:items-center md:pb-0 bg-gradient-to-b
+       from-sec-blue via-main-blue to-black pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all 
+       duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center px-5'>
-              <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}</a>
+              <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
+              </a>
             </li>
           ))
         }
@@ -43,12 +46,3 @@ const Nav = () => {
 }
 
 export default Nav
-
-/* 
-<div className='flex justify-end'>
-<div className='border-b-2 border-an-slate'>
-  <span className='px-2 hover:cursor-pointer hover:blur-xs'>01. Home</span>
-  <span className='px-2 hover:cursor-pointer hover:blur-xs'>02. Experience</span>
-  <span className='px-2 hover:cursor-pointer hover:blur-xs'>03. Contact</span>
-  </div>
-</div> */
