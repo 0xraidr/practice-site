@@ -27,29 +27,25 @@ const Portfolio = () => {
             code: 'https://github.com/0xraidr/modsite',
 
         },
-
     ]
 
 
   return (
-    <div name='portfolio' className='pt-20
-     w-full text-white md:h-screen bg-gradient-to-b 
-     from-sec-blue via-main-blue to-black h-screen'>
+    <div name='portfolio' className='bg-gradient-to-b from-sec-blue via-main-blue to-black
+     w-full text-white md:h-screen'>
         
     <div className='max-w-screen-lg p-4 mx-auto
-     flex flex-col justify-center w-full h-screen text-center'>
+     flex flex-col justify-center w-full h-full text-lightest-slate'>
         <div className='pb-8'>
-            <h2 className='text-4xl font-bold inline'>03. Work</h2>
-            <p className='py-6'>Check out some of my work right here.</p>
+            <h2 className='flex justify-center text-4xl font-bold'>03. Work</h2>
+            <p className='py-6 flex justify-center'>Check out some of my work right here.</p>
          </div>
 
-         <div className='hover:text-regal-green pb-5'>
+            <div className='flex justify-center hover:text-regal-green text-4xl pb-8'>
             <a href='https://github.com/0xraidr' target='blank_' className='text-4xl'>
             <ion-icon name="logo-github"></ion-icon>
             </a>
-        </div>
-
-
+            </div>
 
 
         <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8

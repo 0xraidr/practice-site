@@ -6,7 +6,7 @@ const Welcome = () => {
     <div className='bg-gradient-to-t from-sec-blue via-main-blue to-black pt-10 w-full h-screen'>
 
        <div className=''>
-        <h1 className='text-xl pl-10 md:pr-20 md:text-3xl md:flex justify-center text-lightest-slate mt-10'>Welcome, my name's</h1>
+        <h1 className='text-xl pt-10 pl-10 md:pr-20 md:text-3xl md:flex text-lightest-slate'>Welcome, my name's</h1>
         </div>
         <div>
           <h1 className='flex justify-center font-extrabold text-7xl mt-10 text-transparent bg-clip-text
