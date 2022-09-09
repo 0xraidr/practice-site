@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div>
             <Fade left big>
-            <p className='text-xl '>
+            <p className='text-lg text-an-slate'>
             Crypto and the Web3 space as a whole was what attracted me to tech and learning to code. Ever since meeting friends in 
             Solana's community I've been scavenging the internet for learning material and things to become a better developer.
             I've actually been active within the community on the Solana blockchain for about a year and a half. I've also 

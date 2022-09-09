@@ -61,7 +61,7 @@ const Experience = () => {
             <div>
             <Fade left big>
                 <h2 className='text-4xl font-bold p-2 inline'>02. Experience</h2>
-                <p className='py-6'>These are the technologies I've worked with.</p>
+                <p className='py-6 text-an-slate'>These are the technologies I've worked with.</p>
             </Fade>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3

@@ -41,7 +41,7 @@ const Portfolio = () => {
         <div className='pb-8'>
             <Fade left big>
             <h2 className='flex justify-center text-4xl font-bold'>03. Work</h2>
-            <p className='py-6 flex justify-center'>Check out some of my work right here.</p>
+            <p className='py-6 flex justify-center text-an-slate'>Check out some of my work right here.</p>
             </Fade>
          </div>
 

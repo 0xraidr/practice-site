@@ -12,7 +12,7 @@ const Contact = () => {
          max-w-screen-lg mx-auto h-full'>
             <div className='pb-8 text-lightest-slate'>
                 <h2 className='flex justify-center text-4xl font-bold'>04. Contact</h2>
-                <p className='py-6 flex justify-center'>Submit the form below to get in touch with me.</p>
+                <p className='py-6 text-an-slate flex justify-center'>Submit the form below to get in touch with me.</p>
             </div>
             <div className='flex justify-center items-center'>
                 <form action='https://getform.io/f/34fecda7-12a1-465c-97e7-b90c69aff0ae' 
