@@ -1,10 +1,13 @@
 
 import React from 'react'
+import Bounce from 'react-reveal/Bounce';
+
 
 const Contact = () => {
   return (
     <div name='contact' className='w-full h-screen
     bg-gradient-to-t from-sec-blue via-main-blue to-black p-4 text-white'>
+      <Bounce bottom>
         <div className='flex flex-col p-4 justify-center
          max-w-screen-lg mx-auto h-full'>
             <div className='pb-8 text-lightest-slate'>
@@ -37,6 +40,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
+        </Bounce>
     </div>
   )
 }

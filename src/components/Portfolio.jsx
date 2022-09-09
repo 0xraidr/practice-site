@@ -1,6 +1,8 @@
 import React from 'react'
 import bankSite from '../assets/portfolio/modernbanksite.png'
 import candyCrush from '../assets/candycrush.png'
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 const Portfolio = () => {
@@ -37,8 +39,10 @@ const Portfolio = () => {
     <div className='max-w-screen-lg p-4 mx-auto
      flex flex-col justify-center w-full h-full text-lightest-slate'>
         <div className='pb-8'>
+            <Fade left big>
             <h2 className='flex justify-center text-4xl font-bold'>03. Work</h2>
             <p className='py-6 flex justify-center'>Check out some of my work right here.</p>
+            </Fade>
          </div>
 
             <div className='flex justify-center hover:text-regal-green text-4xl pb-8'>
@@ -50,7 +54,7 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8
          px-12 sm:px-0'>
-
+            <Zoom bottom>
 {
             portfolios.map(({id, src, demo, code}) => (
 
@@ -69,6 +73,7 @@ const Portfolio = () => {
             </div>
             ))
         }
+            </Zoom>
         </div>
     </div>
 

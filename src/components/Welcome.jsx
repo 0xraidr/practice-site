@@ -1,16 +1,21 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
+import Fade from 'react-reveal/Fade';
 
 const Welcome = () => {
   return (
     <div className='bg-gradient-to-t from-sec-blue via-main-blue to-black pt-10 w-full h-screen'>
 
        <div className=''>
+          <Fade left big>
         <h1 className='text-xl pt-10 pl-10 md:pr-20 md:text-3xl md:flex text-lightest-slate'>Welcome, my name's</h1>
+          </Fade>
         </div>
         <div>
+          <Fade bottom big>
           <h1 className='flex justify-center font-extrabold text-7xl mt-10 text-transparent bg-clip-text
            bg-gradient-to-r from-lightest-slate to-regal-green'>0xraidr.</h1>
+          </Fade>
         </div>
         <div>
           <h2 className='flex mt-10 justify-center text-2xl text-lightest-slate'>Currently Under Construction...</h2>
