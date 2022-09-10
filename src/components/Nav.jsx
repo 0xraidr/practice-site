@@ -40,7 +40,7 @@ const Nav = () => {
        duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
-            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center pr-5'>
+            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center pr-7'>
             <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
             </a>
             </li>
