@@ -36,11 +36,11 @@ const Nav = () => {
 
 
       <ul className={`md:flex md:items-center md:pb-0 bg-gradient-to-b
-       from-sec-blue via-main-blue to-black pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all 
+       from-sec-blue via-main-blue to-black pb-12 absolute w-full md:static md:z-auto z-[-1] left-0 md:w-auto md:pl-0 pl-9 transition-all 
        duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
-            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center px-5'>
+            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center pr-5'>
             <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
             </a>
             </li>
