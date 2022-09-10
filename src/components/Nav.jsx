@@ -41,7 +41,7 @@ const Nav = () => {
         {
           Links.map((link)=>( 
             <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center pr-7'>
-              <Link to={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
+              <Link to={link.link} className='text-lightest-slate cursor-pointer hover:blur-xs'>{link.name}
               </Link>
             </li>
           ))
