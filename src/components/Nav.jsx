@@ -4,16 +4,23 @@ import { Link } from 'react-scroll';
 const Nav = () => {
     let Links =[
       
-      {name:"01. About",link:"/About"},
-      {name:"02. Experience",link:"/Experience"},
-      {name:"03. Work",link:"/Work"},
-      {name:"04. Contact",link:"/Contact"},
+      {name:"01. About",
+      link:"/About"},
+
+      {name:"02. Experience",
+      link:"/Experience"},
+
+      {name:"03. Work",
+      link:"/Work"},
+
+      {name:"04. Contact",
+      link:"/Contact"},
     ];
     let [open,setOpen] = useState(false);
 
   return (
 
-    <div className='shadow-md w-full fixed top-0 left-0'>
+    <div className='shadow-md w-full fixed top-0 left-0 z-[999]'>
       <div className='md:flex items-center justify-between bg-gradient-to-tr from-sec-blue via-main-blue to-black py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center 
       text-regal-green'>
@@ -34,8 +41,8 @@ const Nav = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center px-5'>
-              <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
-              </a>
+            <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
+            </a>
             </li>
           ))
         }
@@ -46,3 +53,15 @@ const Nav = () => {
 }
 
 export default Nav
+
+/*
+          Links.map((link)=>(
+            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center px-5'>
+              <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      </div>
+    </div> */
