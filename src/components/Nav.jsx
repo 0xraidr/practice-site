@@ -54,14 +54,3 @@ const Nav = () => {
 
 export default Nav
 
-/*
-          Links.map((link)=>(
-            <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center px-5'>
-              <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-      </div>
-    </div> */

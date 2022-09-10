@@ -45,13 +45,6 @@ const Portfolio = () => {
             </Fade>
          </div>
 
-            <div className='flex justify-center hover:text-regal-green text-4xl pb-8'>
-            <a href='https://github.com/0xraidr' target='blank_' className='text-4xl'>
-            <ion-icon name="logo-github"></ion-icon>
-            </a>
-            </div>
-
-
         <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8
          px-12 sm:px-0'>
             <Zoom bottom>
