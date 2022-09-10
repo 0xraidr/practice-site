@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-gradient-to-t
+    <div name='Contact' className='w-full h-screen bg-gradient-to-t
      from-sec-blue via-main-blue to-black p-4 text-white'>
       <Bounce bottom>
         <div className='flex flex-col p-4 justify-center

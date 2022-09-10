@@ -5,22 +5,22 @@ const Nav = () => {
     let Links =[
       
       {name:"01. About",
-      link:"/About"},
+      link:"About"},
 
       {name:"02. Experience",
-      link:"/Experience"},
+      link:"Experience"},
 
       {name:"03. Work",
-      link:"/Work"},
+      link:"Work"},
 
       {name:"04. Contact",
-      link:"/Contact"},
+      link:"Contact"},
     ];
     let [open,setOpen] = useState(false);
 
   return (
 
-    <div className='shadow-md w-full fixed top-0 left-0 z-[999]'>
+    <div className='shadow-md w-full fixed top-0 left-0 z-[998]'>
       <div className='md:flex items-center justify-between bg-gradient-to-tr from-sec-blue via-main-blue to-black py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center 
       text-regal-green'>
@@ -39,15 +39,15 @@ const Nav = () => {
        from-sec-blue via-main-blue to-black pb-12 absolute w-full md:static md:z-auto z-[-1] left-0 md:w-auto md:pl-0 pl-9 transition-all 
        duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
-          Links.map((link)=>(
+          Links.map((link)=>( 
             <li key={link.name} className='md:ml-8 text-md md:my-0 my-7 text-center pr-7'>
-            <a href={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
-            </a>
+              <Link to={link.link} className='text-lightest-slate hover:blur-xs'>{link.name}
+              </Link>
             </li>
           ))
         }
       </ul>
-      </div>
+    </div>
     </div>
   )
 }

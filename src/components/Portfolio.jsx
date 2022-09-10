@@ -33,7 +33,7 @@ const Portfolio = () => {
 
 
   return (
-    <div name='portfolio' className='bg-gradient-to-b from-sec-blue via-main-blue to-black
+    <div name='Work' className='bg-gradient-to-b from-sec-blue via-main-blue to-black
      w-full text-white md:h-screen'>
         
     <div className='max-w-screen-lg p-4 mx-auto
