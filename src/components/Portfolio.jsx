@@ -43,7 +43,7 @@ const Portfolio = () => {
             <h2 className='flex justify-center text-4xl font-bold'>03. Work</h2>
             <p className='py-6 flex justify-center text-an-slate'>Check out some of my work right here.</p>
             </Fade>
-         </div>
+         </div> 
 
         <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8
          px-12 sm:px-0'>
